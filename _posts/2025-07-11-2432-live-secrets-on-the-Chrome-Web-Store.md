@@ -11,15 +11,6 @@ excerpt_separator: <!--more-->
 
 I've seen a lot of great research from truffle security and others focused on scanning public resources like github repos, docker images, and even LLM training data for exposed secrets. But I started thinking: has anyone done this for browser extensions? I chose to scan the Chrome Web Store, since chromium based browsers are the most popular.
 
-# Numbers
-- **2,432 Live Secrets** were discovered.
-- **36M+ users** using extensions containing live secrets.
-## Top 5
-- **Infura**: 242
-- **OpenAI**: 132
-- **Alchemy**: 67
-- **AWS**: 62
-- **OpenWeather**: 55
 <!--more-->
 
 # Scraping Secrets
@@ -32,6 +23,16 @@ After that, I used [TruffleHog](https://github.com/trufflesecurity/trufflehog), 
 `trufflehog filesystem extensions --archive-timeout=300s --json --only-verified`
 
 Any creds it found were saved to a JSON file, along with the extension's user count and developer contact info.
+
+# Numbers
+- **2,432 Live Secrets** were discovered.
+- **36M+ users** using extensions containing live secrets.
+## Top 5
+- **Infura**: 242
+- **OpenAI**: 132
+- **Alchemy**: 67
+- **AWS**: 62
+- **OpenWeather**: 55
 
 ## Notable Exposures
 
