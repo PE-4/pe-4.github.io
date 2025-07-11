@@ -36,30 +36,29 @@ Any creds it found were saved to a JSON file, along with the extension's user co
 ### GitHub Tokens
 A ton of extensions exposed GitHub tokens with overprivileged scopes and personal access tokens, one of which had access to fairly large github repos (500+ stars).
 
-<img width="1516" height="281" src="https://github.com/user-attachments/assets/6e31131b-bacc-4801-93e6-2806a7dee109" />
+<img width="1516" height="281" alt="6e31131b-bacc-4801-93e6-2806a7dee109" src="https://github.com/user-attachments/assets/d34b5e3c-61ec-418b-98e6-06b7b21520ed" />
 
 ### Mailgun & Mailchimp API Keys
 Used for email automation and marketing attackers could easily steal mailing lists and send out emails from the victims domain.
 
-<img width="1575" height="276" src="https://github.com/user-attachments/assets/ab0b4c5c-2b09-4e31-bb70-9a799da43c2c" />
-<img width="994" height="212" src="https://github.com/user-attachments/assets/d1b80c8b-5aae-46e3-9d0d-f0a532157bf6" />
+<img width="1575" height="276" alt="ab0b4c5c-2b09-4e31-bb70-9a799da43c2c" src="https://github.com/user-attachments/assets/fbb3cf68-c45e-408b-baea-35f5cb38d033" />
+<img width="994" height="212" alt="d1b80c8b-5aae-46e3-9d0d-f0a532157bf6" src="https://github.com/user-attachments/assets/c7e02580-6c4e-407e-845b-fae5070e0059" />
 
 ### AWS Access Keys
 I found several AWS access keys leaked in different extensions. A lot weren't really useful but some leaked user data, one with chat features, one that offered note taking, and another that handled screenshots. These keys weren't just sitting there, they were leaking access to S3 buckets containing user data and screenshots.
 
-<img width="857" height="347" src="https://github.com/user-attachments/assets/36dce976-ebb6-4072-be4f-20a40f15e89e" />
+<img width="857" height="347" alt="36dce976-ebb6-4072-be4f-20a40f15e89e" src="https://github.com/user-attachments/assets/1422f282-99e7-4814-800a-39b1e7f48e01" />
 
 ### API keys for AI services
 A few popular extensions with over 300,000 downloads had OpenAI keys along with a shit ton of smaller ones had hardcoded API keys to AI services, basically a infinite supply of API credits.
 
-<img width="1531" height="926" src="https://github.com/user-attachments/assets/86e1fda2-6da2-4398-8d14-448c65c4cb02" />
-
+<img width="1531" height="926" alt="86e1fda2-6da2-4398-8d14-448c65c4cb02" src="https://github.com/user-attachments/assets/7a22a42f-341c-4f61-a220-ef7ec17e4fde" />
 
 ### SSH & Private Keys
 I found full private SSH/private keys inside some extensions. Why would someone hard code something like this? I have 0 clue.
 
-<img width="1862" height="201" src="https://github.com/user-attachments/assets/a8c17982-ad66-4dea-a7e7-85e4dc7c1c77" />
-<img width="1877" height="228" src="https://github.com/user-attachments/assets/f74dcce2-cde6-4e60-b793-cbbf3e17b9c0" />
+<img width="1862" height="201" alt="a8c17982-ad66-4dea-a7e7-85e4dc7c1c77" src="https://github.com/user-attachments/assets/4f444065-647d-4f72-98d0-f4fda58f08ba" />
+<img width="1877" height="228" alt="f74dcce2-cde6-4e60-b793-cbbf3e17b9c0" src="https://github.com/user-attachments/assets/857dad0b-7e0e-4c01-9a86-ff2b6e520795" />
 
 # Final notes
 I emailed as many developers as I could and got quite a few of the exposed secrets revoked. Some didn't respond, and a lot of extensions are still live with active keys.
