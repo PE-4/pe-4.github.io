@@ -47,7 +47,7 @@ Used for email automation and marketing attackers could easily steal mailing lis
 <img width="994" height="212" alt="d1b80c8b-5aae-46e3-9d0d-f0a532157bf6" src="https://github.com/user-attachments/assets/c7e02580-6c4e-407e-845b-fae5070e0059" />
 
 ### AWS Access Keys
-I found several AWS access keys leaked in different extensions. A lot weren't really useful but some leaked user data, one with chat features, one that offered note taking, and another that handled screenshots. These keys weren't just sitting there, they were leaking access to S3 buckets containing user data and screenshots.
+I found several AWS access keys leaked in different extensions. A lot weren't really useful but some leaked user data, one with chat features, one that offered note taking, and another that handled screenshots. These keys were leaking access to S3 buckets containing user data and screenshots.
 
 <img width="857" height="347" alt="36dce976-ebb6-4072-be4f-20a40f15e89e" src="https://github.com/user-attachments/assets/1422f282-99e7-4814-800a-39b1e7f48e01" />
 
