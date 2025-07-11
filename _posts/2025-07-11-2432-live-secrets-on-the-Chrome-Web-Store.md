@@ -4,6 +4,7 @@ title: "2,432 live secrets on the Chrome Web Store"
 subtitle: "~ AKA, Analyzing 100K Chrome extensions for live secrets ~"
 date: 2025-7-11
 author: pe-4
+excerpt_separator: <!--more-->
 ---
 
 # Introduction
@@ -19,7 +20,7 @@ I've seen a lot of great research from truffle security and others focused on sc
 - **Alchemy**: 67
 - **AWS**: 62
 - **OpenWeather**: 55
-\n\n\n
+<!--more-->
 
 # Scraping Secrets
 I didn't feel like writing a full on scraper for the Chrome Web Store turns out, someone already did the hard work. I grabbed a list of extensions from [DebugBear's chrome-extension-list](https://github.com/DebugBear/chrome-extension-list). It had a big enough sample size, so I just ran with it.
