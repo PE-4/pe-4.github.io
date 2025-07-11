@@ -63,7 +63,7 @@ I found full private SSH/private keys inside some extensions. Why would someone 
 <img width="1862" height="201" alt="a8c17982-ad66-4dea-a7e7-85e4dc7c1c77" src="https://github.com/user-attachments/assets/4f444065-647d-4f72-98d0-f4fda58f08ba" />
 <img width="1877" height="228" alt="f74dcce2-cde6-4e60-b793-cbbf3e17b9c0" src="https://github.com/user-attachments/assets/857dad0b-7e0e-4c01-9a86-ff2b6e520795" />
 
-# Final notes
+# Final Notes
 I emailed as many developers as I could and got quite a few of the exposed secrets revoked. Some didn't respond, and a lot of extensions are still live with active keys.
 
 If you're developing extensions: don't hardcode secrets. If you're using them: maybe double check what you've installed.
