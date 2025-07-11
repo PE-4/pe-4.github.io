@@ -19,6 +19,7 @@ I've seen a lot of great research from truffle security and others focused on sc
 - **Alchemy**: 67
 - **AWS**: 62
 - **OpenWeather**: 55
+\n\n\n
 
 # Scraping Secrets
 I didn't feel like writing a full on scraper for the Chrome Web Store turns out, someone already did the hard work. I grabbed a list of extensions from [DebugBear's chrome-extension-list](https://github.com/DebugBear/chrome-extension-list). It had a big enough sample size, so I just ran with it.
