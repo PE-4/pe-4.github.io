@@ -3,7 +3,7 @@ layout: post
 title: "2,432 live secrets on the Chrome Web Store"
 subtitle: "~ AKA, Analyzing 100K Chrome extensions for live secrets ~"
 date: 2025-7-11
-author: pe-4
+author: neuralmage
 excerpt_separator: <!--more-->
 ---
 
